@@ -1,0 +1,232 @@
+<!-- Using CSS Framwork form W3schools -->
+<!-- ty, w3! -->
+<!-- tinkered together by NoMoreNameToUse -->
+
+<!-- HTML starter -->
+<!DOCTYPE html>
+<html>
+
+<!-- title and settings -->
+<title>Nikolausaktion Gymnasium Rodenkirchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- declare dependencies from google and w3.css -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<!-- CSS declaration -->
+<style>
+  body,
+  html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+
+  .bgimg {
+    background-position: center center;
+    background-size: 100vw auto;
+    background-image: url("Nikolausaktion.jpg");
+    background-repeat: no-repeat;
+    min-height: 77%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .block {
+    display: block;
+    width: 100%
+  }
+
+  .w3-col.s4 {
+    width: 33.33333%
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .bgimg {
+      background-position: center center;
+      background-size: 100vw auto;
+      background-image: url("Nikolausaktion.jpg");
+      min-height: 50%;
+    }
+  }
+</style>
+
+<!-- Nicolas campaign Website body -->
+
+<body>
+
+  <!-- Top black navigation bar  -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s4">
+        <a href="#Registrierung" class="w3-button w3-block w3-black">Formular Eintragen</a>
+      </div>
+      <div class="w3-col s4">
+        <a href="#instructions" class="w3-button w3-block w3-black">Anweisung</a>
+      </div>
+      <div class="w3-col s4">
+        <a href="#Detail" class="w3-button w3-block w3-black">Detail</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+      <span class="w3-tag">Am 4.Dezember</span>
+  </header>
+
+  <!-- Global background color and text definition -->
+  <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- introduction Container -->
+    <div class="w3-container" id="intro">
+      <div class="w3-content" style="max-width:700px">
+        <p><span class="w3-tag">HI!</span> Bald ist wieder Nikolaus und die SV-Nikolausaktion startet wieder!</p>
+        <p class="center">Die Tage werden kürzer, mit jeder Woche wird es kälter, doch halt, es ist doch nicht alles schlecht am Winter, denn was erwartet uns mit Tannenzweigen und Lichterketten? Ach ja, die Weihnachtszeit und nicht zu vergessen: Nikolaus.
+ </p><p>Wie jedes Jahr veranstaltet die SV auch dieses Mal wieder die Nikolausaktion, allerdings etwas anders als gewohnt, denn dieses Mal füllt ihr eure Zettel online aus. Wie das funktioniert erfahrt ihr hier...</p>
+      </div>
+    </div>
+
+    <!-- instructions Container -->
+    <div class="w3-container" id="instructions">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Anweisung: Methode 1</span></h5>
+        <p><strong>Einfach Info einfüllen und später in der Schule bezahlen!</strong></p>
+        <p><span class="w3-tag">Erster Schritt</span><strong> Das untere Formular ausfüllen und abschicken.</strong></p>
+        <p><strong>Beispiel:</strong></p>
+        <img style='height: 100%; width: 100%; object-fit:contain' src="example.png">
+        <p><span class="w3-tag">Zweiter Schritt</span><strong> Wenn du alles richtig gemacht hast, solltest du einen Identifizierungscode bekommen.
+            Merke dir diesen Code. <br> Wenn du deine Email-Adresse angegeben hast, bekommst du noch eine
+            Email mit deinem Code. </strong></p>
+        <p><span class="w3-tag">Dritter Schritt</span><strong> Nimm dir einen Briefumschlag und schreibe deinen Code
+            dadrauf.</strong>(falls du mehr als einen Zettel/Code hast schreibe gerne alle auf einen und gib diesen mit der entsprechende Geldsumme ab). </p><p><strong>
+            Lege 1 Euro pro Code in den Briefumschlag und gebe diese dann in der Schule ab.</strong>
+            Die Umschläge kann man von 24.11.2020 bis zum 01.12.2020 in Sekretariat unter Beachtung von der Hygieneregel abgeben. Alternativ kann man diese im Oberstufensekretariatbriefkasten einwerfen.</p>
+        <p><strong>Wir werden deinen Wunschtext ausdrucken und zusammen mit einem Schoko-Nikolaus am 4.Dezember
+            verteilen.</strong></p>
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Anweisung: Methode 2</span></h5>
+        <p><span class="w3-tag">Erster Schritt</span><strong> Formular <a href="Formular.pdf" download>hier</a>
+            herunterladen und ausdrucken</strong></p>
+        <p><span class="w3-tag">Zweiter Schritt</span><strong> Formular ausfüllen und zusammen mit 1 Euro in einen
+            Briefumschlag legen</strong></p>
+        <p><span class="w3-tag">Dritter Schritt</span><strong> Gebe deinen Briefumschlag in der Schule ab.</strong></p>
+      </div>
+    </div>
+
+    <!-- Nicolaus registration Container -->
+    <div class="w3-container" id="Registrierung" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Registrierung</span></h5>
+
+        <p><strong>Einfach hier formular ausfüllen</strong></p>
+
+        <!-- registration form -->
+        <form action="submit.php" method="post">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Vorname Empfänger (erforderlich)"
+              required name="VornameEmpfaenger"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nachname Empfänger (erforderlich)"
+              required name="NachnameEmpfaenger"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Eigene Vorname (erforderlich)"
+              required name="EigeneVorname"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Eigene Nachname (erforderlich)"
+              required name="EigeneNachname"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Stufe Empfänger (erforderlich)"
+              required name="Stufe"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Klasse Empfänger (erforderlich)"
+              required name="Klasse"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email (optional)" name="Email">
+          </p>
+          <p><textarea class="w3-input w3-border" placeholder="Nachricht (erforderlich)" required
+              name="Nachricht"></textarea></p>
+          <p><button class="w3-button w3-black" type="submit">Fertig!</button></p>
+        </form>
+      </div>
+    </div>
+    <!-- Nicolas campaign detail Container -->
+
+    <div class="w3-container" id="Detail">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Detail</span></h5>
+        <div class="w3-row w3-center w3-card w3-padding">
+          <a href="javascript:void(0)" onclick="openMenu(event, 'UeberNikolausAktion');" id="myLink">
+            <div class="w3-col s6 tablink">Über Zettel & Abgabe</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'UeberNikolaeuse');">
+            <div class="w3-col s6 tablink">Über Nikoläuse</div>
+          </a>
+        </div>
+
+        <div id="UeberNikolausAktion" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Abgabe</h5>
+          <p class="w3-text-grey">###geänderte Abgabeort:###<br>Die Umschläge kann man von 24.11.2020 bis zum 01.12.2020 in Sekretariat unter Beachtung von der Hygieneregel abgeben. Alternativ kann man diese im Oberstufensekretariatbriefkasten einwerfen.</p><br>
+          <h5>Nikolausanzahl</h5>
+          <p class="w3-text-grey">Wie gewöhnlich bekommt jeder bei einem Zettel <strong>mindestens</strong> einen Nikolaus.<br><br>
+          Ab <strong>drei</strong> Zetteln bekommt man einen weiteren Nikolaus. <br><br>
+          Bei jedem weiteren Zetteln werden keine weiteren Nikoläuse ausgeteilt, die Zetteln werden aber auf jeden Fall weitergereicht.  </p><br>
+          <p><strong>FAQ</strong>: Wie gewohnt wird nur der Empfängername und die Nachricht auf dem endgültigen Zettel ausgedruckt, Sendername wird nicht erwähnt.</p>
+        </div>
+
+        <div id="UeberNikolaeuse" class="w3-container menu w3-padding-48 w3-card">
+          <h5>Fair trade</h5>
+          <p class="w3-text-grey">Die Nikoläuse, die wir verteilen, sind mit dem Fair-Trade-Siegel gekennzeichnet.</p>
+          <p class="w3-text-grey">Mit Fair-Trade-Siegel bzw. Fairer-Handel-Siegel gekennzeichnete Güter, 
+            sind Güter, bei deren Herstellung festgesetzte soziale und teilweise auch ökologische Kriterien eingehalten werden.</p><br>
+            <img style='height: 30%; width: 30%; object-fit:contain ' src="FairTradeLogo.png" class="center">
+        </div>
+      </div>
+    </div>
+        <!-- introduction Container -->
+    <div class="w3-container" id="contact">
+      <div class="w3-content" style="max-width:700px">
+        <p><span class="w3-tag">Kontakt:</span> Bei Fragen, Fehlermeldungen, Anmerkungen oder Korrektur deiner Angaben bitte einen Email an 
+	  <a href="mailto:justinspacezhang@gmail.com">justinspacezhang@gmail.com</a> schreiben. </p>
+      </div>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large center">
+    <p>Verwendet <a href="https://www.w3schools.com/w3css/4/w3.css" title="W3.CSS" target="_blank"
+        class="w3-hover-text-green">w3.css</a> und <a href="https://freedns.afraid.org" title="freeDNS" target="_blank"
+        class="w3-hover-text-green">freeDNS</a> </p>
+
+  </footer>
+
+
+  <script>
+    //Switch Menu Tab
+    function openMenu(evt, menuName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(menuName).style.display = "block";
+      evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+  </script>
+</body>
+
+</html>
